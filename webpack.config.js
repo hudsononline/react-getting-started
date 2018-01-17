@@ -29,7 +29,8 @@ module.exports = {
     new CleanWebpackPlugin(['dist']),
     // Auto-generate the index.html file
     new HtmlWebpackPlugin({
-      template: './src/index.html'
+      template: './src/index.html',
+      title: 'React Hello World'
     })
   ]
 };
