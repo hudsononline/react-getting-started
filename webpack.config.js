@@ -27,6 +27,7 @@ module.exports = {
 
   plugins: [
     new CleanWebpackPlugin(['dist']),
+    // Auto-generate the index.html file
     new HtmlWebpackPlugin({
       template: './src/index.html'
     })
